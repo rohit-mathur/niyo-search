@@ -1,0 +1,103 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  padding:15px;
+}
+
+/* Card Design Start */
+.card-container{
+  max-height:300px;
+  min-width: 300px;
+  max-width: 350px;
+  overflow-y: scroll;
+  box-shadow:0 0 5px #ccc;
+}
+.card{
+  border-bottom:1px solid #ccc;
+  padding:10px;
+}
+.card-id{
+  font-size:20px;
+}
+.card-name{
+  font-size: 16px;
+  font-style: italic;
+  color: #999;
+  margin:5px 0;
+}
+.card-address{
+  color: #999;
+  font-size: 14px;
+  font-weight:bold;
+}
+.active{
+  background-color: #FFFEDC;
+}
+/* Card Design End */
+
+/* Search Bar Start */
+.search-bar{
+  background-color:#eee;box-shadow:0 0 5px #ccc;
+  display: inline-block;
+  padding:5px 10px;
+  min-width:320px;
+}
+.search-box{
+  padding:5px;
+  background-color:transparent;
+  border:none;
+  /* box-shadow:0 0 5px #ccc; */
+  min-width:300px;
+}
+.search-box:focus{
+  outline:none;
+}
+/* Search Bar End */
+
+/* Icons Start */
+.icon-search, .icon-close{
+  content:'';
+  display: inline-block;
+  background-size: contain;
+}
+.icon-search{
+  vertical-align: -4px;
+  background-image:url('./assets/images/search.svg');
+  height:18px;
+  width:18px;
+}
+.icon-close{
+  vertical-align: -2px;
+  background-image:url('./assets/images/close.svg');
+  height:12px;
+  width:12px;
+}
+/* Icons End */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+mark{
+  color: #00B2B2;
+  background-color:transparent;
+}
+.text-center{
+  text-align: center;
+  margin:30px 0;
+}
